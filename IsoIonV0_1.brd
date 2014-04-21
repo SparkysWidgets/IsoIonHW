@@ -3039,7 +3039,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP1" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.862" y="3.048"/>
 <element name="JP2" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="3.048" y="3.048"/>
 <element name="JP3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.862" y="24.892"/>
-<element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="3.81" y="24.892"/>
+<element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="3.048" y="24.892"/>
 <element name="J1" library="Connector" package="4P-2.0" value="" x="28.448" y="4.572" smashed="yes">
 <attribute name="NAME" x="26.823" y="5.372" size="0.8128" layer="33" font="vector" ratio="10"/>
 <attribute name="VALUE" x="26.543" y="5.207" size="0.8128" layer="27" font="vector" ratio="10"/>
