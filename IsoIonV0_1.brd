@@ -159,6 +159,7 @@
 <wire x1="28.702" y1="27.432" x2="28.702" y2="24.13" width="0.8128" layer="21"/>
 <wire x1="28.702" y1="22.606" x2="28.702" y2="19.558" width="0.8128" layer="21"/>
 <wire x1="28.702" y1="27.432" x2="28.702" y2="10.668" width="0.8128" layer="22" style="shortdash"/>
+<wire x1="28.702" y1="16.51" x2="28.702" y2="13.97" width="0.8128" layer="21" style="longdash"/>
 </plain>
 <libraries>
 <library name="SW_ArtWork">
