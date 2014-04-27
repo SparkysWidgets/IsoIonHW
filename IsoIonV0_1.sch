@@ -6873,39 +6873,31 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </library>
 <library name="SW_DigitalAnalogICs">
 <packages>
-<package name="SOT23-6">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; 6 PIN&lt;p&gt;
-Generic SOT23-6 package</description>
-<wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
-<wire x1="-1.422" y1="-0.81" x2="-1.422" y2="-0.302" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="-0.302" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
-<wire x1="-0.428" y1="-0.81" x2="-0.4572" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="-0.4572" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="-1.328" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.422" y1="-0.81" x2="1.328" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.328" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="-1.328" y2="0.81" width="0.1524" layer="21"/>
-<smd name="1" x="-0.95" y="-1.3" dx="0.55" dy="1.27" layer="1"/>
-<smd name="2" x="0" y="-1.3" dx="0.55" dy="1.27" layer="1" roundness="45"/>
-<smd name="3" x="0.95" y="-1.3" dx="0.55" dy="1.27" layer="1" roundness="45"/>
-<smd name="4" x="0.95" y="1.3" dx="0.55" dy="1.27" layer="1" roundness="45"/>
-<smd name="5" x="0" y="1.3" dx="0.55" dy="1.27" layer="1" roundness="45"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
-<smd name="6" x="-0.95" y="1.3" dx="0.55" dy="1.27" layer="1" roundness="45"/>
-<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
-<wire x1="-0.428" y1="0.81" x2="-0.522" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="0.522" y1="0.81" x2="0.428" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-0.4572" y1="-0.302" x2="-1.422" y2="-0.302" width="0.1524" layer="21"/>
-<wire x1="-0.4572" y1="-0.81" x2="-0.4572" y2="-0.302" width="0.1524" layer="21"/>
+<package name="SC70">
+<wire x1="1.168" y1="0.556" x2="1.168" y2="-0.556" width="0.1524" layer="21"/>
+<wire x1="1.168" y1="-0.556" x2="-1.168" y2="-0.556" width="0.1524" layer="51"/>
+<wire x1="-1.168" y1="-0.556" x2="-1.168" y2="-0.048" width="0.1524" layer="21"/>
+<wire x1="-1.168" y1="-0.048" x2="-1.168" y2="0.556" width="0.1524" layer="21"/>
+<wire x1="-1.168" y1="0.556" x2="1.168" y2="0.556" width="0.1524" layer="51"/>
+<wire x1="-0.174" y1="-0.556" x2="-0.4572" y2="-0.556" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="-0.556" x2="-0.522" y2="-0.556" width="0.1524" layer="21"/>
+<wire x1="0.522" y1="-0.556" x2="0.174" y2="-0.556" width="0.1524" layer="21"/>
+<wire x1="-1.074" y1="-0.556" x2="-1.168" y2="-0.556" width="0.1524" layer="21"/>
+<wire x1="1.168" y1="-0.556" x2="1.074" y2="-0.556" width="0.1524" layer="21"/>
+<wire x1="1.074" y1="0.556" x2="1.168" y2="0.556" width="0.1524" layer="21"/>
+<wire x1="-1.168" y1="0.556" x2="-1.074" y2="0.556" width="0.1524" layer="21"/>
+<smd name="1" x="-0.65" y="-1.1" dx="0.4" dy="0.9" layer="1"/>
+<smd name="2" x="0" y="-1.1" dx="0.4" dy="0.9" layer="1" roundness="45"/>
+<smd name="3" x="0.65" y="-1.1" dx="0.4" dy="0.9" layer="1" roundness="45"/>
+<smd name="4" x="0.65" y="1.1" dx="0.4" dy="0.9" layer="1" roundness="45"/>
+<smd name="5" x="0" y="1.1" dx="0.4" dy="0.9" layer="1" roundness="45"/>
+<text x="-2.667" y="1.651" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.667" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="6" x="-0.65" y="1.1" dx="0.4" dy="0.9" layer="1" roundness="45"/>
+<wire x1="-0.174" y1="0.556" x2="-0.522" y2="0.556" width="0.1524" layer="21"/>
+<wire x1="0.522" y1="0.556" x2="0.174" y2="0.556" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="-0.048" x2="-1.168" y2="-0.048" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="-0.556" x2="-0.4572" y2="-0.048" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -6932,7 +6924,7 @@ Generic SOT23-6 package</description>
 <gate name="G$1" symbol="MCP4017" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23-6">
+<device name="" package="SC70">
 <connects>
 <connect gate="G$1" pin="B" pad="5"/>
 <connect gate="G$1" pin="SCL" pad="3"/>
@@ -7595,7 +7587,7 @@ Generic SOT23-6 package</description>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="33.02" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
-<label x="12.7" y="38.1" size="1.778" layer="95" rot="R90"/>
+<label x="15.24" y="38.1" size="1.778" layer="95" rot="R90"/>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="15.24" y1="33.02" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 <junction x="15.24" y="33.02"/>
