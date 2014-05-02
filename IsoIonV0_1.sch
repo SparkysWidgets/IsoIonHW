@@ -7592,6 +7592,11 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="15.24" y1="33.02" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 <junction x="15.24" y="33.02"/>
 </segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
+<label x="187.96" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="GNDA" class="0">
 <segment>
@@ -7749,11 +7754,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="180.34" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="P" pin="V+"/>
 <pinref part="VDD6" gate="G$1" pin="VDD"/>
-<wire x1="187.96" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="119.38" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
-<junction x="182.88" y="109.22"/>
 </segment>
 </net>
 <net name="N$4" class="0">

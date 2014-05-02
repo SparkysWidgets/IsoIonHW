@@ -3404,6 +3404,15 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="20.828" y1="21.59" x2="21.452" y2="21.59" width="0.3048" layer="1"/>
 <wire x1="21.452" y1="21.59" x2="21.452" y2="22.744" width="0.3048" layer="1"/>
 <wire x1="21.452" y1="22.744" x2="21.336" y2="22.86" width="0.3048" layer="1"/>
+<contactref element="R12" pad="1"/>
+<wire x1="19.492" y1="21.874" x2="19.492" y2="26.736" width="0.254" layer="1"/>
+<wire x1="19.492" y1="26.736" x2="19.05" y2="27.178" width="0.254" layer="1"/>
+<wire x1="19.05" y1="27.178" x2="10.414" y2="27.178" width="0.254" layer="1"/>
+<wire x1="10.414" y1="27.178" x2="9.906" y2="26.67" width="0.254" layer="1"/>
+<via x="9.906" y="26.67" extent="1-16" drill="0.4"/>
+<wire x1="9.906" y1="26.67" x2="9.398" y2="26.162" width="0.254" layer="16"/>
+<wire x1="9.398" y1="26.162" x2="8.774" y2="26.162" width="0.254" layer="16"/>
+<wire x1="8.774" y1="26.162" x2="8.636" y2="26.3" width="0.254" layer="16"/>
 </signal>
 <signal name="GNDA">
 <contactref element="ISOIC2" pad="10"/>
@@ -3511,8 +3520,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="24.8666" y1="24.13" x2="25.654" y2="24.13" width="0.3048" layer="16"/>
 <contactref element="IC2" pad="1"/>
 <contactref element="IC4" pad="8"/>
-<contactref element="R12" pad="1"/>
-<wire x1="8.636" y1="26.3" x2="7.228" y2="26.3" width="0.3048" layer="16"/>
 <wire x1="7.228" y1="26.3" x2="7.112" y2="26.416" width="0.3048" layer="16"/>
 <via x="7.112" y="26.416" extent="1-16" drill="0.4"/>
 <wire x1="7.112" y1="26.416" x2="7.112" y2="22.098" width="0.3048" layer="1"/>
@@ -3693,8 +3700,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="19,16,73f3a7b93ab5b0f3"/>
 <approved hash="19,16,60ae3914391660ac"/>
 <approved hash="19,16,8ff6d62f5a2a03f3"/>
-<approved hash="19,16,db54ba525ca0375e"/>
 <approved hash="19,16,ff439c683da2b7e0"/>
+<approved hash="19,16,db54ba525ca0375e"/>
 </errors>
 </board>
 </drawing>
